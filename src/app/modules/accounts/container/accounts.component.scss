@@ -1,0 +1,38 @@
+.accounts-wrapper {
+    background: url('/assets/images/login-background.jpg');
+    background-size: 100% 100%;
+    max-width: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .background-mask {
+        background-color: rgba(112, 112, 112, 0.8);
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        header {
+            position: relative;
+            height: 5.625rem;
+            width: 14.5rem;
+            letter-spacing: 2px;
+            .logo {
+                height: 5rem;
+                width: 3.1rem;
+                position: absolute;
+                left: 11.25rem;
+                background-image: url(/assets/icons/pen-logo-icon.svg);
+                background-size: 4rem 5rem;
+            }
+            .heading {
+                position: absolute;
+                bottom: 0;
+            }
+        }
+        .accounts-router {
+            width:100%;
+            text-align: center;
+        }
+    }
+}

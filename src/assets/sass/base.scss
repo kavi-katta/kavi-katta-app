@@ -1,0 +1,32 @@
+@import  'partials/font';
+@import  'partials/margin';
+@import  'partials/padding';
+
+html, body {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    background: #fff;
+    box-sizing: border-box;
+    letter-spacing: 0.5px;
+} 
+ input[type=text] {
+    border: rgb(146, 146, 152) solid 1px;
+    height: 40px;
+    padding:  0 15px;
+    &::-webkit-input-placeholder, &:-ms-input-placeholder, &::placeholder { 
+        color: rgb(146, 146, 152);
+    }
+ }
+
+ input[type=password] {
+     @extend input[type=text];
+ }
+ 
+
+ //****************background colors********************
+.background-white {
+    background-color: #fff;
+}
+
+
